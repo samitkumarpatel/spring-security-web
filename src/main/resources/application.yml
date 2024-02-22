@@ -1,0 +1,15 @@
+#spring:
+#  mvc:
+#    view:
+#      suffix: .html
+#      prefix: templates/
+
+logging:
+  level:
+    web: debug
+spring:
+  security:
+    user:
+      name: user
+      password: secret
+
